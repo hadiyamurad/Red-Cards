@@ -1,0 +1,642 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Red Cards Limited</title>
+  <!-- bootstrap css link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- googleapis css jolly lodger font link -->
+  <link href='https://fonts.googleapis.com/css?family=Jolly Lodger' rel='stylesheet'>
+  <!-- googleapis css playball font link -->
+  <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet'>
+  <!-- googleapis css playfair font link -->
+  <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+  <!-- googleapis css ledger font link -->
+  <link href='https://fonts.googleapis.com/css?family=Ledger' rel='stylesheet'>
+  <!-- googleapis css lexend font link -->
+  <link href='https://fonts.googleapis.com/css?family=Lexend' rel='stylesheet'>
+  <!-- font awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- icon -->
+  <link rel="icon" href=".//Assets/logo-removebg.png">
+  <!-- custom css link -->
+  <link rel="stylesheet" href=".//css folder/style.css">
+</head>
+
+<body>
+
+  <header id="header">
+    <!-- navbar starts -->
+
+    <nav id="my-navbar" class="navbar navbar-expand-lg bg-body-tertiary p-0 my-position-sticky">
+      <div class="container-fluid  my-bg-color pe-3">
+        <a class="navbar-brand my-text-color my-text-color-logo" style="transform: translate(-15px,3px);"
+          href="#header">
+          <img src=".//Assets/logo-removebg.png" alt="Logo" style="transform: translate(10px,-5px);">
+          <span style="font-family: 'Jolly Lodger'; font-size: 30px;">Red Cards</span>
+        </a>
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars bar-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link my-text-color pe-3" aria-current="page" href="#main-section">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle my-text-color" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Brands
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href=".//brands pages html/cardzilla.html">Cardzilla</a></li>
+                <li><a class="dropdown-item" href=".//brands pages html/cardmania.html">Cardmania</a></li>
+                <li><a class="dropdown-item" href=".//brands pages html/shuffle-&-scribble.html">Shuffle & Scribble</a>
+                </li>
+                <li><a class="dropdown-item" href=".//brands pages html/archies.html">Archies</a></li>
+                <li><a class="dropdown-item" href=".//brands pages html/cardcore.html">Cardcore</a></li>
+                <li><a class="dropdown-item" href=".//brands pages html/paper-playhouse.html">Paper-play house</a></li>
+                <li><a class="dropdown-item" href=".//brands pages html/whimsywork.html">Whimsy work</a></li>
+                <li><a class="dropdown-item" href=".//brands pages html/momentsonpaper.html">Moments on Paper</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#brands">See all</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle my-text-color" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Categories
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href=".//category pages html/birthday_page.html">Happy birthday</a></li>
+                <li><a class="dropdown-item" href=".//category pages html/wedding_page.html">Wedding</a></li>
+                <li><a class="dropdown-item" href=".//category pages html/anniversary_page.html">Anniversary</a></li>
+                <li><a class="dropdown-item" href=".//category pages html/festive_page.html">Festive</a></li>
+                <li><a class="dropdown-item" href=".//category pages html/bond_days.html">Bond days</a></li>
+                <li><a class="dropdown-item" href=".//category pages html/friendship_page.html">Friendship</a></li>
+                <li><a class="dropdown-item" href=".//category pages html/sincere_sentiments.html">Sincere
+                    sentiments</a></li>
+                <li><a class="dropdown-item" href=".//category pages html/engagedToBeMarried.html">Engaged to be
+                    Married</a></li>
+                <li><a class="dropdown-item" href=".//category pages html/congratulations.html">Congratulations</a></li>
+                <li><a class="dropdown-item" href=".//category pages html/thinkingOfYou.html">Thinking of you</a></li>
+                <li><a class="dropdown-item" href=".//category pages html/getWellSoon.html">Get well soon</a></li>
+                <li><a class="dropdown-item" href=".//category pages html/custom_.html">Custom</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#categories">See all</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link my-text-color pe-3" href="#about-us">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link my-text-color pe-3" href="#contact-us">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar ends -->
+
+    <!-- hero-section starts -->
+
+    <section id="main-section" class="hero-section">
+      <div>
+
+        <div class="hero-image">
+          <img src=".//Assets/hero-slider.webp" alt="">
+        </div>
+
+        <div class="hero-sec text-start">
+          <div class="hero-text-parent">
+            <div class="hero-text-wrapper">
+              <div class="hero-text-1">Welcome To Red Cards Limited</div>
+              <div class="hero-text-2">From your Heart To Theirs</div>
+              <div class="hero-text-3">"Crafting moments that matter with exquisite cards for every occasion. <br>From
+                heartfelt wedding invites to festive greetings & birthday wishes. <br>Find perfect ways to show your
+                emotions."</div>
+              <button>Free Delivery</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- hero-section ends -->
+  </header>
+
+  <main>
+    <!-- categories starts -->
+    <section class="category" id="categories" style="scroll-margin-top: 50px;">
+      <div class="categories-parent pb-5 pt-4">
+
+        <div class="container text-center mt-4">
+          <h2 class="text-start mb-3"><b>Choose by Category</b></h2>
+
+          <div class="row">
+            <div class="col col-lg-2 col-md-3 col-sm-4 col-6 mt-3 d-flex justify-content-center align-items-center">
+              <div class="category-card-bg">
+                <a href=".//category pages html/birthday_page.html">
+                  <img src=".//Assets/happy birthday.webp" alt="birthday">
+                  <p class="p1">Birthday</p>
+                </a>
+              </div>
+            </div>
+            <div class="col col-lg-2 col-md-3 col-sm-4 col-6 mt-3 d-flex justify-content-center align-items-center">
+              <div class="category-card-bg">
+                <a href=".//category pages html/wedding_page.html">
+                  <img src=".//Assets/weddingg.webp" alt="wedding">
+                  <p class="p2">Wedding</p>
+                </a>
+              </div>
+            </div>
+            <div class="col col-lg-2 col-md-3 col-sm-4 col-6 mt-3 d-flex justify-content-center align-items-center">
+              <div class="category-card-bg">
+                <a href="./category pages html/anniversary_page.html">
+                  <img src=".//Assets/anniversary.jpg" alt="anniversary">
+                  <p class="p3">Anniversary</p>
+                </a>
+              </div>
+            </div>
+            <div class="col col-lg-2 col-md-3 col-sm-4 col-6 mt-3 d-flex justify-content-center align-items-center">
+              <div class="category-card-bg">
+                <a href="./category pages html/festive_page.html">
+                  <img src=".//Assets/festive.jpg" alt="festive">
+                  <p class="p4">Festive</p>
+                </a>
+              </div>
+            </div>
+            <div class="col col-lg-2 col-md-3 col-sm-4 col-6 mt-3 d-flex justify-content-center align-items-center">
+              <div class="category-card-bg">
+                <a href=".//category pages html/bond_days.html">
+                  <img src=".//Assets/bond.webp" alt="bond days">
+                  <p class="p5">Bond days</p>
+                </a>
+              </div>
+            </div>
+            <div class="col col-lg-2 col-md-3 col-sm-4 col-6 mt-3 d-flex justify-content-center align-items-center">
+              <div class="category-card-bg">
+                <a href=".//category pages html/friendship_page.html">
+                  <img src=".//Assets/friendship.png" alt="friendship">
+                  <p class="p6">Friendship</p>
+                </a>
+              </div>
+            </div>
+            <div class="col col-lg-2 col-md-3 col-sm-4 col-6 mt-3 d-flex justify-content-center align-items-center">
+              <div class="category-card-bg">
+                <a href=".//category pages html/sincere_sentiments.html">
+                  <img src=".//Assets/apology.webp" alt="apology">
+                  <p class="p7">Sincere <br> Sentiments</p>
+                </a>
+              </div>
+            </div>
+            <div class="col col-lg-2 col-md-3 col-sm-4 col-6 mt-3 d-flex justify-content-center align-items-center">
+              <div class="category-card-bg">
+                <a href=".//category pages html/engagedToBeMarried.html">
+                  <img src=".//Assets/engagement.png" alt="engaged to be married">
+                  <p class="p8">Engaged to be Married</p>
+                </a>
+              </div>
+            </div>
+            <div class="col col-lg-2 col-md-3 col-sm-4 col-6 mt-3 d-flex justify-content-center align-items-center">
+              <div class="category-card-bg">
+                <a href=".//category pages html/congratulations.html">
+                  <img src=".//Assets/congrats.webp" alt="Congratulations">
+                  <p class="p9" style="font-size: 18px;">Congratulations</p>
+                </a>
+              </div>
+            </div>
+            <div class="col col-lg-2 col-md-3 col-sm-4 col-6 mt-3 d-flex justify-content-center align-items-center">
+              <div class="category-card-bg">
+                <a href=".//category pages html/thinkingOfYou.html">
+                  <img src=".//Assets/thinking of you.png" alt="thinking of you">
+                  <p class="p10">Thinking of <br> you</p>
+                </a>
+              </div>
+            </div>
+            <div class="col col-lg-2 col-md-3 col-sm-4 col-6 mt-3 d-flex justify-content-center align-items-center">
+              <div class="category-card-bg">
+                <a href=".//category pages html/getWellSoon.html">
+                  <img src=".//Assets/get-well-soon.webp" alt="get well soon">
+                  <p class="p11">Get well soon</p>
+                </a>
+              </div>
+            </div>
+            <div class="col col-lg-2 col-md-3 col-sm-4 col-6 mt-3 d-flex justify-content-center align-items-center">
+              <div class="category-card-bg">
+                <a href=".//category pages html/custom_.html">
+                  <img src=".//Assets/custom.jpg" alt="custom">
+                  <p class="p12">Custom</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- categories ends -->
+
+    <!-- brands starts -->
+    <section class="brands" id="brands" style="scroll-margin-top: 90px;">
+      <div class="container mb-5">
+        <!-- Brand Section -->
+        <h2 class="mb-5" style="font-weight: bold;color: #8b0000;">Choose By Brand</h2>
+        <div class="row g-3">
+          <div class="col-md-3 col-sm-6">
+            <a href=".//brands pages html/archies.html">
+              <div class="brand-container">
+                <div class="brand-image">
+                  <img src=".//Assets/chanel.jpg" alt="Chanel">
+                </div>
+                <div class="brand-text">
+                  <p class="brand-name">Archies</p>
+                  <p class="brand-delivery">Delivery within 24 hours</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href=".//brands pages html/cardcore.html">
+              <div class="brand-container">
+                <div class="brand-image">
+                  <img src=".//Assets/saturn.png" alt="DD">
+                </div>
+                <div class="brand-text">
+                  <p class="brand-name">Cardcore</p>
+                  <p class="brand-delivery">Delivery within 24 hours</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href=".//brands pages html/cardzilla.html">
+              <div class="brand-container">
+                <div class="brand-image">
+                  <img src=".//Assets/dove.png" alt="Dove">
+                </div>
+                <div class="brand-text">
+                  <p class="brand-name">Cardzilla</p>
+                  <p class="brand-delivery">Delivery within 24 hours</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href=".//brands pages html/cardmania.html">
+              <div class="brand-container">
+                <div class="brand-image">
+                  <img src=".//Assets/star-1.jpg" alt="Gucci">
+                </div>
+                <div class="brand-text">
+                  <p class="brand-name">Cardmania</p>
+                  <p class="brand-delivery">Delivery within 24 hours</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href=".//brands pages html/whimsywork.html">
+              <div class="brand-container">
+                <div class="brand-image">
+                  <img src=".//Assets/lv.png" alt="Louis Vuitton">
+                </div>
+                <div class="brand-text">
+                  <p class="brand-name">Whimsy Work</p>
+                  <p class="brand-delivery">Delivery within 24 hours</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href=".//brands pages html/momentsonpaper.html">
+              <div class="brand-container">
+                <div class="brand-image">
+                  <img src=".//Assets/wing.png" alt="Star">
+                </div>
+                <div class="brand-text">
+                  <p class="brand-name">Moments On Paper</p>
+                  <p class="brand-delivery">Delivery within 24 hours</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href=".//brands pages html/paper-playhouse.html">
+              <div class="brand-container">
+                <div class="brand-image">
+                  <img src=".//Assets/target.png" alt="Target">
+                </div>
+                <div class="brand-text">
+                  <p class="brand-name">Paper-play House</p>
+                  <p class="brand-delivery">Delivery within 24 hours</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href=".//brands pages html/shuffle-&-scribble.html">
+              <div class="brand-container">
+                <div class="brand-image">
+                  <img src=".//Assets/walmart.jpg" alt="Walmart">
+                </div>
+                <div class="brand-text">
+                  <p class="brand-name">Shuffle & Scribble</p>
+                  <p class="brand-delivery">Delivery within 24 hours</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- brands ends -->
+
+    <!-- about us starts -->
+    <section class="about" id="about-us" style="scroll-margin-top: 70px;">
+      <div style="background-color: #8b0000;" class="about-parent">
+
+        <div class="container text-center">
+          <div class="row">
+
+            <div class="col col-lg-6 col-md-12 col-sm-12 col-12 pe-4 mt-2">
+              <div class="image-about">
+                <img src=".//Assets/aboutUs.webp" alt="About us pic">
+              </div>
+            </div>
+
+            <div class="col col-lg-6 col-md-12 col-sm-12 col-12 ps-4">
+              <div class="about-text text-start" style="color: #ffffff;">
+                <h2 style="color: white;"><b>Who Are We?</b></h2>
+                <p style="font-size: 18px;">Our mission is to turn simple cards into meaningful connections. With a
+                  commitment to quality,innovation, and eco-friendly practices.</p>
+                <p style="font-size: 16px;">Every card we create tells a story, celebrates relationships, and upholds
+                  our
+                  dedication to sustainability.</p>
+                <div class="container-fluid text-center mt-5">
+                  <div class="row">
+                    <div class="col col-lg-6 col-md-12 col-sm-12 col-12">
+                      <div class="about-cards text-start p-3 mb-2">
+                        <h4><i class="fa-brands fa-pagelines pe-2" style="font-size: 22px;"></i>Biodegradable materials
+                        </h4>
+                        <p>By choosing these materials, we ensure that our practices are eco-friendly for healthy
+                          environement.</p>
+                      </div>
+                    </div>
+                    <div class="col col-lg-6 col-md-12 col-sm-12 col-12">
+                      <div class="about-cards text-start p-3">
+                        <h4><i class="fa-solid fa-earth-americas pe-2" style="font-size: 20px;"></i>Eco-Friendly
+                          Printing
+                        </h4>
+                        <p>We use soy-based or vegetable-based inks for printing, which are less harmful to the
+                          environment.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- about us ends -->
+
+    <!-- contact us starts -->
+    <section class="contact-us bg-color py-5 mt-5" id="contact-us" style="scroll-margin-top: 70px;">
+      <div class="contact-us-parent">
+
+        <div class="container">
+          <div class="row gy-4">
+
+            <div class="col-lg-6">
+              <h2 style="font-weight: 750;">Contact Us</h2>
+              <p>Email, call, or complete the form to learn how we can solve your messaging problem.</p>
+              <p><strong><i class="fas fa-envelope"></i> Email:</strong><a href="mailto:redcardsinc@gmail.com">
+                  redcardsinc@gmail.com</a></p>
+              <p><strong><i class="fas fa-phone"></i> Phone:</strong> +92 123456789</p>
+              <div class="row mt-4 container-row">
+                <div class="col-md-4 mb-3 cols">
+                  <h6>Customer Support</h6>
+                  <p>Our support team is available around the clock to address any concerns or queries you may have.</p>
+                </div>
+                <div class="col-md-4 mb-3 cols">
+                  <h6>Feedback</h6>
+                  <p>We value your feedback and are continuously working to improve. Your input is crucial in shaping
+                    the
+                    future of Red Cards.</p>
+                </div>
+                <div class="col-md-4 mb-3 cols">
+                  <h6>Media Inquiries</h6>
+                  <p>For media-related questions or press inquiries, please contact us at media@redcards.com.</p>
+                </div>
+              </div>
+              <a href="contact.html" class="view-a">View more details</a>
+            </div>
+            <div class="col">
+              <div class="card p-3 shadow">
+                <h3>Get in Touch</h3>
+                <p>You can reach us anytime.</p>
+                <form onsubmit="showPopup(event)">
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <input type="text" class="form-control rounded-pill form-1" placeholder="First Name" required
+                        pattern="[A-Za-z]+" name="firstName">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <input type="text" class="form-control rounded-pill form-1" placeholder="Last Name" required
+                        pattern="[A-Za-z]+" name="lastName">
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <input type="tel" class="form-control form-1" placeholder="Phone Number" required
+                      pattern="[0-9]{11}" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 11);"
+                      name="phoneNumber">
+                  </div>
+                  <div class="mb-3">
+                    <input type="email" class="form-control rounded-pill form-1" placeholder="Your Email" required
+                      name="email">
+                  </div>
+                  <div class="mb-3">
+                    <textarea class="form-control custom-textarea" placeholder="How can we help?" rows="4"
+                      maxlength="200" name="message"></textarea>
+                  </div>
+                  <button type="submit" class="buttons w-100">Submit</button>
+                </form>
+              </div>
+              <div id="popup" class="popup hidden">
+                <p>Thank you for submitting the form!</p>
+                <button onclick="closePopup()">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- contact us ends -->
+
+    <!-- what's new starts -->
+    <section class="whats_new">
+      <div class="container my-5">
+        <h2 class="my-5" style="font-weight: bold;color: #8b0000;">What's New</h2>
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title card-news-title">Share the Love <br> Digitally</h5>
+                <p class="card-text card-news-text">E-cards are now available for <br> instant gifting.</p>
+              </div>
+              <div class="card-news-img">
+                <img src=".//Assets/e-cards.jpg" alt="E-cards">
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-news-title card-title ">Online Payment <br> Available! </h5>
+                <p class="card-news-text card-text ">Safe Payments, Anytime at Your <br>Fingertips</p>
+              </div>
+              <div class="card-news-img">
+                <img src=".//Assets/online.jpeg" alt="Online">
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-news-title card-title">Convenient Delivery <br> Anytime</h5>
+                <p class="card-news-text card-text ">Let us take care of delivering <br>your essentials.</p>
+              </div>
+              <div class="card-news-img">
+                <img src=".//Assets/red-cards-delivery.webp" alt="Card delivery">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- what's new ends -->
+
+  </main>
+
+  <!-- footer starts -->
+  <footer>
+    <div class="bg-blood-red pt-5 pb-4 mt-5 mb-0">
+      <div class="container">
+        <div class="row text-center">
+
+          <div class="col-lg-3 col-12 col-sm-12 col-md-6 text-start my-text-left footer-padding">
+            <h5>Brands</h5>
+            <div class="bd-contant footer-line-height my-text-left">
+              <div class="">
+                <p><a href=".//brands pages html/archies.html">Archies</a></p>
+                <p><a href=".//brands pages html/cardcore.html">Cardcore</a></p>
+                <p><a href=".//brands pages html/cardzilla.html">Cardzilla</a></p>
+                <p><a href=".//brands pages html/cardmania.html">Cardmania</a></p>
+                <p><a href=".//brands pages html/whimsywork.html">Whimsy Work</a></p>
+                <p><a href=".//brands pages html/momentsonpaper.html">Moments On Paper</a></p>
+                <p><a href=".//brands pages html/paper-playhouse.html">Paper-play House</a></p>
+                <p><a href=".//brands pages html/shuffle-&-scribble.html">Shuffle & Scribble</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-12 col-sm-12 col-md-6 my-text-left">
+            <h5>Categories</h5>
+            <div class="cl-contant footer-line-height">
+              <div class="pb-2">
+                <p><a href=".//category pages html/birthday_page.html">Happy birthday</a></p>
+                <p><a href=".//category pages html/wedding_page.html">Wedding</a></p>
+                <p><a href=".//category pages html/anniversary_page.html">Anniversary</a></p>
+                <p><a href=".//category pages html/festive_page.html">Festive</a></p>
+                <p><a href=".//category pages html/bond_days.html">Bond days</a></p>
+                <p><a href=".//category pages html/friendship_page.html">Friendship</a></p>
+                <p><a href=".//category pages html/sincere_sentiments.html">Sincere sentiments</a></p>
+                <p><a href=".//category pages html/engagedToBeMarried.html">Engaged to be Married</a></p>
+                <p><a href=".//category pages html/congratulations.html">Congratulations</a></p>
+                <p><a href=".//category pages html/thinkingOfYou.html">Thinking of you</a></p>
+                <p><a href=".//category pages html/getWellSoon.html">Get well soon</a></p>
+                <p><a href=".//category pages html/custom_.html">Custom</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-12 col-sm-12 col-md-6 my-text-left">
+            <h5>About Us</h5>
+            <div class="as-contant footer-line-height">
+              <p class="padding-footer-p pe-4">
+                Our mission is to turn simple cards into meaningful connections. With a commitment to
+                quality,innovation,
+                and eco-friendly practices. Every card we create tells a story, celebrates relationships, and upholds
+                our
+                dedication to sustainability.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-12 col-sm-12 col-md-6 my-text-left">
+            <h5>Contact Us</h5>
+            <p>
+              <i class="fas fa-phone"></i> +92 123456789
+            </p>
+            <p><a href="mailto:redcardsinc@gmail.com" target="_blank"><i class="fas fa-envelope"></i>
+                redcardsinc@gmail.com</a></p>
+            <div class="cont-contant">
+              <p><a href="https://maps.app.goo.gl/7X2TRAFyVoqvGW6u8" target="_blank"><i
+                    class="fas fa-map-marker-alt"></i>
+                  Location</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- footer ends -->
+
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script>
+    function showPopup(event) {
+      // Prevent form submission
+      event.preventDefault();
+
+      // Show the popup
+      document.getElementById("popup").classList.remove("hidden");
+    }
+
+    function closePopup() {
+      // Hide the popup
+      document.getElementById("popup").classList.add("hidden");
+    }
+  </script>
+</body>
+
+</html>
